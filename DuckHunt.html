@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="DuckHuntAssets/Styling.css" type="text/css">
+    <script src="DuckHuntAssets/Script.js"></script>
+    <title>Play Duck Hunt!</title>
+</head>
+<body>
+    <p id="status" style="z-index:10;"></p>
+    <p id="score">Score: 0</p>
+    <img src="DuckHuntAssets/Sun.png" alt="Image of a sun" class="sun">
+    <img src="DuckHuntAssets/Cloud1.png" alt="Cloud1" id="cloud2">
+    <img src="DuckHuntAssets/Cloud2.png" alt="Cloud2" id="cloud1">
+    <img src="DuckHuntAssets/Doggo.png" alt="Doggogo" id="doggo">
+    <img src="DuckHuntAssets/Grass.png" alt="Grassssss" class="grass1">
+    <img src="DuckHuntAssets/Grass.png" alt="Grassssss" class="grass2">
+    <p class="banner" onclick="StartGame()">Play &#9658</p>
+    <div id="birdbox">
+        <img class="bird" id="blueb" src="DuckHuntAssets/BlueLeft.gif" alt="BlueBird" onclick="Shoot()">
+        <img class="bird" id="blackb" src="DuckHuntAssets/BlackLeft.gif" alt="BlackBird" onclick="Shoot()">
+        <img class="bird" id="brownb" src="DuckHuntAssets/BrownLeft.gif" alt="BrownBird" onclick="Shoot()">
+    </div>
+</body>
+</html>
